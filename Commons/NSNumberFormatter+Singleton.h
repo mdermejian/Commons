@@ -1,0 +1,25 @@
+//
+//  NSNumberFormatter+Singleton.h
+//  POS
+//
+//  Created by Marc Dermejian on 10/11/2014.
+//  Copyright (c) 2014 Fexco Software Group. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface NSNumberFormatter (Singleton)
+
+
+/*!
+ @abstract
+ creates or returns an NSNumberFormatter singleton instance
+ 
+ @discussion
+ The most critical detail to keep in mind when using formatters is that they are extremely expensive to create. Even just an alloc init of an NSNumberFormatter in a tight loop is enough to bring an app to its knees.
+ 
+ Thus the use of a singleton instance for performance/reusability reasons
+ */
++ (instancetype)numberFormatter;
+
+@end
