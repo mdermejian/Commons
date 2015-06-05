@@ -31,5 +31,26 @@ static inline float radiansToDegrees(float radians) {
     return radians * 180.0 / M_PI;
 }
 
+- (void) turnTorchOn: (bool) on {
+
+    if ([AVCaptureDevice class])
+        AVCaptureDevice *device = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
+        
+        if ([device hasTorch] && [device hasFlash]){
+            
+            [device lockForConfiguration:nil];
+            if (on) {
+                [device setTorchMode:AVCaptureTorchModeOn];
+                [device setFlashMode:AVCaptureFlashModeOn];
+                //torchIsOn = YES; //define as a variable/property if you need to know status
+            } else {
+                [device setTorchMode:AVCaptureTorchModeOff];
+                [device setFlashMode:AVCaptureFlashModeOff];
+                //torchIsOn = NO;
+            }
+            [device unlockForConfiguration];
+        }
+    }
+}
 
 #endif
