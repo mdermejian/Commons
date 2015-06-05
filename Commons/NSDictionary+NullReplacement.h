@@ -16,6 +16,6 @@
  
  This is particularly useful when parsing backend responses
  */
-- (NSDictionary *)dictionaryByReplacingNullsWithBlanks;
+- (NSDictionary *)dictionaryByRemovingNulls;
 
 @end

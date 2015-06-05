@@ -11,15 +11,15 @@
 
 @implementation NSArray (NullReplacement)
 
-- (NSArray *)arrayByReplacingNullsWithBlanks  {
+- (NSArray *)arrayByRemovingNulls  {
     NSMutableArray *replaced = [self mutableCopy];
     const id nul = [NSNull null];
     
     for (int idx = 0; idx < [replaced count]; idx++) {
         id object = [replaced objectAtIndex:idx];
         if (object == nul) [replaced removeObjectAtIndex:idx];
-        else if ([object isKindOfClass:[NSDictionary class]]) [replaced replaceObjectAtIndex:idx withObject:[object dictionaryByReplacingNullsWithBlanks]];
-        else if ([object isKindOfClass:[NSArray class]]) [replaced replaceObjectAtIndex:idx withObject:[object arrayByReplacingNullsWithBlanks]];
+        else if ([object isKindOfClass:[NSDictionary class]]) [replaced replaceObjectAtIndex:idx withObject:[object dictionaryByRemovingNulls]];
+        else if ([object isKindOfClass:[NSArray class]]) [replaced replaceObjectAtIndex:idx withObject:[object arrayByRemovingNulls]];
         else if (([object isKindOfClass:[NSString class]]) && ([(NSString*)object isEqualToString:@""])) [replaced removeObjectAtIndex:idx];
     }
     return [replaced copy];
