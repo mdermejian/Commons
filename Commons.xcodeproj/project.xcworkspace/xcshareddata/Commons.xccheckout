@@ -10,29 +10,29 @@
 	<string>Commons</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>351D8C1CE6D2CD7F2292193E11C70288FD5DE0B3</key>
-		<string>VSFSGGIT.fexco.ie:mdermejian/iOS_FSG_Commons_Framework.git</string>
+		<key>7ACBAC63AFB2996F6B8FF08DAC75EEB22E388518</key>
+		<string>https://github.com/mdermejian/Commons.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Commons.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>351D8C1CE6D2CD7F2292193E11C70288FD5DE0B3</key>
+		<key>7ACBAC63AFB2996F6B8FF08DAC75EEB22E388518</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>VSFSGGIT.fexco.ie:mdermejian/iOS_FSG_Commons_Framework.git</string>
+	<string>https://github.com/mdermejian/Commons.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>351D8C1CE6D2CD7F2292193E11C70288FD5DE0B3</string>
+	<string>7ACBAC63AFB2996F6B8FF08DAC75EEB22E388518</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>351D8C1CE6D2CD7F2292193E11C70288FD5DE0B3</string>
+			<string>7ACBAC63AFB2996F6B8FF08DAC75EEB22E388518</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Commons</string>
 		</dict>
