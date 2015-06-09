@@ -10,7 +10,7 @@
 
 @implementation NSNumberFormatter (Singleton)
 
-+ (instancetype)numberFormatter
++ (instancetype)sharedNumberFormatter
 {
     static NSNumberFormatter *_numberFormatter = nil;
     static dispatch_once_t onceToken;
@@ -18,6 +18,7 @@
         _numberFormatter = [[NSNumberFormatter alloc] init];
         [_numberFormatter setLocale:[NSLocale currentLocale]];
         [_numberFormatter setNumberStyle:NSNumberFormatterDecimalStyle];
+        [_numberFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
         [_numberFormatter setMaximumFractionDigits:2];
         [_numberFormatter setMinimumFractionDigits:2];
         //TODO: check rounding
@@ -25,6 +26,28 @@
     });
     
     return _numberFormatter;
+}
+
++ (instancetype)currencyFormatterUsingCurrencyCode:(NSString *)currencyCode
+{
+    return [NSNumberFormatter currencyFormatterUsingCurrencyCode:currencyCode inLocale:[[NSLocale currentLocale] localeIdentifier]];
+}
+
++ (instancetype)currencyFormatterUsingCurrencyCode:(NSString *)iso4217currencyCode inLocale:(NSString *)localeIdentifier
+{
+    NSLocale *locale = [[NSLocale alloc] initWithLocaleIdentifier:localeIdentifier];
+    if (!locale) {
+        locale = [NSLocale currentLocale];
+    }
+    
+    NSNumberFormatter *currencyFormatter = [NSNumberFormatter sharedNumberFormatter];
+    currencyFormatter.locale = locale;
+    currencyFormatter.numberStyle = NSNumberFormatterCurrencyStyle;
+    
+    NSString *currencySymbol = [NSString stringWithFormat:@"%@",[locale displayNameForKey:NSLocaleCurrencySymbol value:iso4217currencyCode]];
+    currencyFormatter.currencySymbol = currencySymbol;
+    
+    return currencyFormatter;
 }
 
 @end

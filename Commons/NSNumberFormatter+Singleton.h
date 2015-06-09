@@ -20,6 +20,19 @@
  
  Thus the use of a singleton instance for performance/reusability reasons
  */
-+ (instancetype)numberFormatter;
++ (instancetype)sharedNumberFormatter;
+
+/*!
+ @abstract
+ returns an NSNumberFormatter using the sharedNumberFormatter customized using the currencyCode
+ @see currencyFormatterUsingCurrencyCode:inLocale:
+ */
++ (instancetype)currencyFormatterUsingCurrencyCode:(NSString *)currencyCode;
+
+/*!
+ @abstract
+ returns an NSNumberFormatter using the sharedNumberFormatter customized using the currencyCode and the locale identifier
+ */
++ (instancetype)currencyFormatterUsingCurrencyCode:(NSString *)iso4217currencyCode inLocale:(NSString *)localeIdentifier;
 
 @end

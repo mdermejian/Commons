@@ -24,7 +24,7 @@
     return _dateFormatter;
 }
 
-+ (NSDateFormatter *)internetDateTimeFormatter {
++ (instancetype)internetDateTimeFormatter {
 
     NSDateFormatter *dateFormatter = [NSDateFormatter sharedDateFormatter];
     NSLocale *en_US_POSIX = [[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"];
@@ -34,7 +34,7 @@
     return dateFormatter;
 }
 
-+ (NSDateFormatter *)RFC1123DateFormatter
++ (instancetype)RFC1123DateFormatter
 {
     NSDateFormatter *dateFormatter = [NSDateFormatter sharedDateFormatter];
 
@@ -45,7 +45,7 @@
     return dateFormatter;
 }
 
-+ (NSDateFormatter *)RFC1123FullDateOutputFormatter
++ (instancetype)RFC1123FullDateOutputFormatter
 {
     NSDateFormatter *dateFormatter = [NSDateFormatter sharedDateFormatter];
     
@@ -56,7 +56,7 @@
     return dateFormatter;
 }
 
-+ (NSDateFormatter *)RFC1123TimeOutputFormatter
++ (instancetype)RFC1123TimeOutputFormatter
 {
     NSDateFormatter *dateFormatter = [NSDateFormatter sharedDateFormatter];
     
@@ -67,7 +67,7 @@
     return dateFormatter;
 }
 
-+ (NSDateFormatter *)RFC850DateFormatter
++ (instancetype)RFC850DateFormatter
 {
     NSDateFormatter *dateFormatter = [NSDateFormatter sharedDateFormatter];
     
@@ -78,7 +78,7 @@
     return dateFormatter;
 }
 
-+ (NSDateFormatter *)ASCDateFormatter
++ (instancetype)ASCDateFormatter
 {
     NSDateFormatter *dateFormatter = [NSDateFormatter sharedDateFormatter];
     

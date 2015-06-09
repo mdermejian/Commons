@@ -30,7 +30,7 @@
  Good info on internet dates here:
  http://developer.apple.com/iphone/library/qa/qa2010/qa1480.html
  */
-+ (NSDateFormatter *)internetDateTimeFormatter;
++ (instancetype)internetDateTimeFormatter;
 
 
 
@@ -38,7 +38,7 @@
  @abstract
  returns the singleton NSDateFormatter instance formatted using the en_US locale, GMT timezone and EEE',' dd MMM yyyy HH':'mm':'ss z date format
  */
-+ (NSDateFormatter *)RFC1123DateFormatter;
++ (instancetype)RFC1123DateFormatter;
 
 
 
@@ -46,7 +46,7 @@
  @abstract
  returns the singleton NSDateFormatter instance formatted using the en_US locale, GMT timezone and EEE',' dd MMM yyyy HH':'mm':'ss 'GMT' date format
  */
-+ (NSDateFormatter *)RFC1123FullDateOutputFormatter;
++ (instancetype)RFC1123FullDateOutputFormatter;
 
 
 
@@ -55,7 +55,7 @@
  @abstract
  returns the singleton NSDateFormatter instance formatted using the en_US locale, GMT timezone and HH':'mm':'ss date format
  */
-+ (NSDateFormatter *)RFC1123TimeOutputFormatter;
++ (instancetype)RFC1123TimeOutputFormatter;
 
 
 
@@ -64,7 +64,7 @@
  @abstract
  returns the singleton NSDateFormatter instance formatted using the en_US locale, GMT timezone and EEEE',' dd'-'MMM'-'yy HH':'mm':'ss z date format
  */
-+ (NSDateFormatter *)RFC850DateFormatter;
++ (instancetype)RFC850DateFormatter;
 
 
 
@@ -72,7 +72,7 @@
  @abstract
  returns the singleton NSDateFormatter instance formatted using the en_US locale, GMT timezone and EEE MMM d HH':'mm':'ss yyyy date format
  */
-+ (NSDateFormatter *)ASCDateFormatter;
++ (instancetype)ASCDateFormatter;
 
 
 @end
