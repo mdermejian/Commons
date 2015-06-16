@@ -18,7 +18,6 @@
         _numberFormatter = [[NSNumberFormatter alloc] init];
         [_numberFormatter setLocale:[NSLocale currentLocale]];
         [_numberFormatter setNumberStyle:NSNumberFormatterDecimalStyle];
-        [_numberFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
         [_numberFormatter setMaximumFractionDigits:2];
         [_numberFormatter setMinimumFractionDigits:2];
         //TODO: check rounding

@@ -31,7 +31,8 @@ static inline float radiansToDegrees(float radians) {
     return radians * 180.0 / M_PI;
 }
 
-- (void) turnTorchOn: (bool) on {
+/*
+void turnTorchOn: (bool on) {
 
     if ([AVCaptureDevice class])
         AVCaptureDevice *device = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
@@ -52,5 +53,6 @@ static inline float radiansToDegrees(float radians) {
         }
     }
 }
+*/
 
 #endif
