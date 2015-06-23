@@ -20,4 +20,14 @@
     return nil;
 }
 
++ (NSString*)currencyLocalizedNameForCode:(NSString*)currencyCode
+{
+    NSLocale *locale = [[NSLocale alloc] initWithLocaleIdentifier:currencyCode];
+    if (locale) {
+        NSString *currencyName = [NSString stringWithFormat:@"%@",[locale displayNameForKey:NSLocaleCurrencyCode value:currencyCode]];
+        return currencyName;
+    }
+    return nil;
+}
+
 @end
