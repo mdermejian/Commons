@@ -1,9 +1,8 @@
 //
 //  NSDate+RFC1123.m
-//  BlytheCon
+//  Commons
 //
-//  Created by Neil Edwards on 02/09/2010.
-//  Copyright 2010 buffer. All rights reserved.
+//  Created by Marc Dermejian on 07/05/2015.
 //
 
 #import "NSDate+RFC1123.h"

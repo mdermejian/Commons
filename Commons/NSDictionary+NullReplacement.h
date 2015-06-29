@@ -1,9 +1,8 @@
 //
 //  NSDictionary+NullReplacement.h
-//  BureauDeChange
+//  Commons
 //
 //  Created by Marc Dermejian on 04/02/2015.
-//  Copyright (c) 2015 Fexco Software Group. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

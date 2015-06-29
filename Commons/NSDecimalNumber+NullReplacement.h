@@ -1,9 +1,8 @@
 //
 //  NSDecimalNumber+NullCheck.h
-//  MixSDKiOS
+//  Commons
 //
 //  Created by Marc Dermejian on 13/04/2015.
-//  Copyright (c) 2015 Fexco Software Group. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

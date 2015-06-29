@@ -1,9 +1,8 @@
 //
 //  NSDateFormatter+Singleton.h
-//  BureauDeChange
+//  Commons
 //
 //  Created by Marc Dermejian on 13/02/2015.
-//  Copyright (c) 2015 Fexco Software Group. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

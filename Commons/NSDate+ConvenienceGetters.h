@@ -3,7 +3,6 @@
 //  Commons
 //
 //  Created by Marc Dermejian on 07/05/2015.
-//  Copyright (c) 2015 Fexco Software Group. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

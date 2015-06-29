@@ -1,9 +1,8 @@
 //
 //  NSDate+RFC3339.m
-//  MixSDKiOS
+//  Commons
 //
 //  Created by Marc Dermejian on 01/04/2015.
-//  Copyright (c) 2015 Fexco Software Group. All rights reserved.
 //
 
 #import "NSDate+RFC3339.h"

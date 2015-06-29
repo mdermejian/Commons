@@ -1,9 +1,8 @@
 //
 //  NSString+CurrencySymbol.m
-//  POS
+//  Commons
 //
 //  Created by Marc Dermejian on 24/11/2014.
-//  Copyright (c) 2014 Fexco Software Group. All rights reserved.
 //
 
 #import "NSString+CurrencySymbol.h"

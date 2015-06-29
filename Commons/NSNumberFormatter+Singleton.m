@@ -1,9 +1,8 @@
 //
 //  NSNumberFormatter+Singleton.m
-//  POS
+//  Commons
 //
 //  Created by Marc Dermejian on 10/11/2014.
-//  Copyright (c) 2014 Fexco Software Group. All rights reserved.
 //
 
 #import "NSNumberFormatter+Singleton.h"

@@ -3,7 +3,6 @@
 //  Commons
 //
 //  Created by Marc Dermejian on 06/05/2015.
-//  Copyright (c) 2015 Fexco Software Group. All rights reserved.
 //
 
 #ifndef Commons_CommonFunctions_h
