@@ -49,9 +49,6 @@
 /*!
  @abstract
  returns an NSInteger value representing the number of days between startDate and endDate
- 
- @param startDate the NSDate instance to use as starting date
- @param endDate the NSDate instance  to use as ending date
  */
 - (NSInteger)weekday;
 
