@@ -20,7 +20,7 @@ DESC
 s.homepage     = "https://github.com/mdermejian/Commons"
 s.license      = { :type => "MIT", :file => "LICENSE.txt" }
 s.author       = { "MD" => "mdermejian@fexco.com" }
-s.platform     = :ios, "8.0"
+s.platform     = :ios, "7.0"
 s.source       = { :git => "https://github.com/mdermejian/Commons.git", :tag => "v#{s.version}" }
 s.source_files = "Commons", "Commons/**/*.{h,m}"
 s.requires_arc = true
