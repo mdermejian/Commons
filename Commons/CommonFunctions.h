@@ -30,9 +30,10 @@ static inline float radiansToDegrees(float radians) {
     return radians * 180.0 / M_PI;
 }
 
-void performBlockAfterDelay:((void(^)())block, NSTimeInterval delay) {
+typedef void(^block)(void);
+void performBlockAfterDelay (NSTimeInterval delay, block b){
     dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delay * NSEC_PER_SEC));
-    dispatch_after(popTime, dispatch_get_main_queue(), block);
+    dispatch_after(popTime, dispatch_get_main_queue(), b);
 }
 
 /*
