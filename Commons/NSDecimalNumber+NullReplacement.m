@@ -14,9 +14,14 @@
     if ([numberValue isKindOfClass:[NSNull class]]) {
         return [NSDecimalNumber zero];
     }
+    if ([numberValue rangeOfString:@"null" options:NSCaseInsensitiveSearch].location != NSNotFound) {
+        return [NSDecimalNumber zero];
+    }
+    /* FOLLOWING ONLY WORKS ON iOS8+
     if ([numberValue containsString:@"null"]) {
         return [NSDecimalNumber zero];
     }
+    */
     return [NSDecimalNumber decimalNumberWithString:numberValue];
 }
 
