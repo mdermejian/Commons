@@ -42,8 +42,11 @@
     currencyFormatter.locale = locale;
     currencyFormatter.numberStyle = NSNumberFormatterCurrencyStyle;
     
-    NSString *currencySymbol = [NSString stringWithFormat:@"%@",[locale displayNameForKey:NSLocaleCurrencySymbol value:iso4217currencyCode]];
-    currencyFormatter.currencySymbol = currencySymbol;
+    //TODO: untested! using line 3 below instead!
+//    NSString *currencySymbol = [NSString stringWithFormat:@"%@",[locale displayNameForKey:NSLocaleCurrencySymbol value:iso4217currencyCode]];
+//    currencyFormatter.currencySymbol = currencySymbol;
+    //line 3:
+    currencyFormatter.currencyCode = iso4217currencyCode;
     
     return currencyFormatter;
 }
