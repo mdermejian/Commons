@@ -35,6 +35,10 @@
 		80280BFF1AFBBEFB00A246B6 /* NSDate+ConvenienceConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 80280BFD1AFBBEFB00A246B6 /* NSDate+ConvenienceConstructor.m */; };
 		80280C021AFBBFCE00A246B6 /* NSDate+ConvenienceGetters.h in Headers */ = {isa = PBXBuildFile; fileRef = 80280C001AFBBFCE00A246B6 /* NSDate+ConvenienceGetters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80280C031AFBBFCE00A246B6 /* NSDate+ConvenienceGetters.m in Sources */ = {isa = PBXBuildFile; fileRef = 80280C011AFBBFCE00A246B6 /* NSDate+ConvenienceGetters.m */; };
+		80A4633C1C0D9C6F00979003 /* TypeUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 80A4633A1C0D9C6F00979003 /* TypeUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80A4633D1C0D9C6F00979003 /* TypeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A4633B1C0D9C6F00979003 /* TypeUtility.m */; };
+		80DDF3C51BBBE03F00095549 /* NSString+Random.h in Headers */ = {isa = PBXBuildFile; fileRef = 80DDF3C31BBBE03F00095549 /* NSString+Random.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80DDF3C61BBBE03F00095549 /* NSString+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DDF3C41BBBE03F00095549 /* NSString+Random.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +83,10 @@
 		80280BFD1AFBBEFB00A246B6 /* NSDate+ConvenienceConstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ConvenienceConstructor.m"; sourceTree = "<group>"; };
 		80280C001AFBBFCE00A246B6 /* NSDate+ConvenienceGetters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ConvenienceGetters.h"; sourceTree = "<group>"; };
 		80280C011AFBBFCE00A246B6 /* NSDate+ConvenienceGetters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ConvenienceGetters.m"; sourceTree = "<group>"; };
+		80A4633A1C0D9C6F00979003 /* TypeUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeUtility.h; sourceTree = "<group>"; };
+		80A4633B1C0D9C6F00979003 /* TypeUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeUtility.m; sourceTree = "<group>"; };
+		80DDF3C31BBBE03F00095549 /* NSString+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Random.h"; sourceTree = "<group>"; };
+		80DDF3C41BBBE03F00095549 /* NSString+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Random.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +155,10 @@
 				80280BF31AFA560500A246B6 /* NSDecimalNumber+NullReplacement.m */,
 				80280BDE1AFA550800A246B6 /* NSString+CurrencySymbol.h */,
 				80280BDF1AFA550800A246B6 /* NSString+CurrencySymbol.m */,
+				80DDF3C31BBBE03F00095549 /* NSString+Random.h */,
+				80DDF3C41BBBE03F00095549 /* NSString+Random.m */,
+				80A4633A1C0D9C6F00979003 /* TypeUtility.h */,
+				80A4633B1C0D9C6F00979003 /* TypeUtility.m */,
 				80280BAA1AFA345600A246B6 /* Supporting Files */,
 			);
 			path = Commons;
@@ -194,7 +206,9 @@
 				80280BE81AFA554D00A246B6 /* NSDate+RFC1123.h in Headers */,
 				80280BCD1AFA362D00A246B6 /* NSDateFormatter+Singleton.h in Headers */,
 				80280BCB1AFA362D00A246B6 /* NSDate+Additions.h in Headers */,
+				80DDF3C51BBBE03F00095549 /* NSString+Random.h in Headers */,
 				80280C021AFBBFCE00A246B6 /* NSDate+ConvenienceGetters.h in Headers */,
+				80A4633C1C0D9C6F00979003 /* TypeUtility.h in Headers */,
 				80280BFE1AFBBEFB00A246B6 /* NSDate+ConvenienceConstructor.h in Headers */,
 				80280BD11AFA362D00A246B6 /* NSArray+NullReplacement.h in Headers */,
 				80280BD41AFA36B900A246B6 /* CommonFunctions.h in Headers */,
@@ -299,6 +313,7 @@
 			files = (
 				80280BE11AFA550800A246B6 /* NSString+CurrencySymbol.m in Sources */,
 				80280C031AFBBFCE00A246B6 /* NSDate+ConvenienceGetters.m in Sources */,
+				80DDF3C61BBBE03F00095549 /* NSString+Random.m in Sources */,
 				80280BCC1AFA362D00A246B6 /* NSDate+Additions.m in Sources */,
 				80280BCE1AFA362D00A246B6 /* NSDateFormatter+Singleton.m in Sources */,
 				80280BD21AFA362D00A246B6 /* NSArray+NullReplacement.m in Sources */,
@@ -308,6 +323,7 @@
 				80280BE51AFA551E00A246B6 /* NSNumberFormatter+Singleton.m in Sources */,
 				80280BDD1AFA51A100A246B6 /* Alert.m in Sources */,
 				80280BF51AFA560500A246B6 /* NSDecimalNumber+NullReplacement.m in Sources */,
+				80A4633D1C0D9C6F00979003 /* TypeUtility.m in Sources */,
 				80280BD01AFA362D00A246B6 /* NSDictionary+NullReplacement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -34,4 +34,5 @@ FOUNDATION_EXPORT const unsigned char CommonsVersionString[];
 #import <Commons/NSDictionary+NullReplacement.h>
 #import <Commons/NSNumberFormatter+Singleton.h>
 #import <Commons/NSString+CurrencySymbol.h>
- 
+#import <Commons/NSString+Random.h>
+#import <Commons/TypeUtility.h>
