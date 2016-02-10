@@ -37,6 +37,8 @@
 		80280C031AFBBFCE00A246B6 /* NSDate+ConvenienceGetters.m in Sources */ = {isa = PBXBuildFile; fileRef = 80280C011AFBBFCE00A246B6 /* NSDate+ConvenienceGetters.m */; };
 		80A4633C1C0D9C6F00979003 /* TypeUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 80A4633A1C0D9C6F00979003 /* TypeUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80A4633D1C0D9C6F00979003 /* TypeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A4633B1C0D9C6F00979003 /* TypeUtility.m */; };
+		80C833C31C50D4E800BAAF75 /* MKDistanceFormatter+Singleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 80C833C11C50D4E800BAAF75 /* MKDistanceFormatter+Singleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80C833C41C50D4E800BAAF75 /* MKDistanceFormatter+Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C833C21C50D4E800BAAF75 /* MKDistanceFormatter+Singleton.m */; };
 		80DDF3C51BBBE03F00095549 /* NSString+Random.h in Headers */ = {isa = PBXBuildFile; fileRef = 80DDF3C31BBBE03F00095549 /* NSString+Random.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80DDF3C61BBBE03F00095549 /* NSString+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DDF3C41BBBE03F00095549 /* NSString+Random.m */; };
 /* End PBXBuildFile section */
@@ -85,6 +87,8 @@
 		80280C011AFBBFCE00A246B6 /* NSDate+ConvenienceGetters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ConvenienceGetters.m"; sourceTree = "<group>"; };
 		80A4633A1C0D9C6F00979003 /* TypeUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeUtility.h; sourceTree = "<group>"; };
 		80A4633B1C0D9C6F00979003 /* TypeUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeUtility.m; sourceTree = "<group>"; };
+		80C833C11C50D4E800BAAF75 /* MKDistanceFormatter+Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKDistanceFormatter+Singleton.h"; sourceTree = "<group>"; };
+		80C833C21C50D4E800BAAF75 /* MKDistanceFormatter+Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKDistanceFormatter+Singleton.m"; sourceTree = "<group>"; };
 		80DDF3C31BBBE03F00095549 /* NSString+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Random.h"; sourceTree = "<group>"; };
 		80DDF3C41BBBE03F00095549 /* NSString+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Random.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,6 +149,8 @@
 				80280BF71AFA561100A246B6 /* NSDate+RFC3339.m */,
 				80280BC51AFA362D00A246B6 /* NSDateFormatter+Singleton.h */,
 				80280BC61AFA362D00A246B6 /* NSDateFormatter+Singleton.m */,
+				80C833C11C50D4E800BAAF75 /* MKDistanceFormatter+Singleton.h */,
+				80C833C21C50D4E800BAAF75 /* MKDistanceFormatter+Singleton.m */,
 				80280BE21AFA551E00A246B6 /* NSNumberFormatter+Singleton.h */,
 				80280BE31AFA551E00A246B6 /* NSNumberFormatter+Singleton.m */,
 				80280BC71AFA362D00A246B6 /* NSDictionary+NullReplacement.h */,
@@ -205,6 +211,7 @@
 				80280BE41AFA551E00A246B6 /* NSNumberFormatter+Singleton.h in Headers */,
 				80280BE81AFA554D00A246B6 /* NSDate+RFC1123.h in Headers */,
 				80280BCD1AFA362D00A246B6 /* NSDateFormatter+Singleton.h in Headers */,
+				80C833C31C50D4E800BAAF75 /* MKDistanceFormatter+Singleton.h in Headers */,
 				80280BCB1AFA362D00A246B6 /* NSDate+Additions.h in Headers */,
 				80DDF3C51BBBE03F00095549 /* NSString+Random.h in Headers */,
 				80280C021AFBBFCE00A246B6 /* NSDate+ConvenienceGetters.h in Headers */,
@@ -319,6 +326,7 @@
 				80280BD21AFA362D00A246B6 /* NSArray+NullReplacement.m in Sources */,
 				80280BF91AFA561100A246B6 /* NSDate+RFC3339.m in Sources */,
 				80280BFF1AFBBEFB00A246B6 /* NSDate+ConvenienceConstructor.m in Sources */,
+				80C833C41C50D4E800BAAF75 /* MKDistanceFormatter+Singleton.m in Sources */,
 				80280BE91AFA554D00A246B6 /* NSDate+RFC1123.m in Sources */,
 				80280BE51AFA551E00A246B6 /* NSNumberFormatter+Singleton.m in Sources */,
 				80280BDD1AFA51A100A246B6 /* Alert.m in Sources */,

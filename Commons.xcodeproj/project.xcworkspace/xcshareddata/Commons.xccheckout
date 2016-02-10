@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>BD27011E-8002-4EF1-A1A5-05813B6117FB</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Commons</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7ACBAC63AFB2996F6B8FF08DAC75EEB22E388518</key>
 		<string>https://github.com/mdermejian/Commons.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Commons.xcodeproj</string>
+	<string>Commons.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7ACBAC63AFB2996F6B8FF08DAC75EEB22E388518</key>

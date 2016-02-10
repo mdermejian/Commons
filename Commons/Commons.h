@@ -30,6 +30,7 @@ FOUNDATION_EXPORT const unsigned char CommonsVersionString[];
 #import <Commons/NSDate+RFC1123.h>
 #import <Commons/NSDate+RFC3339.h>
 #import <Commons/NSDateFormatter+Singleton.h>
+#import <Commons/MKDistanceFormatter+Singleton.h>
 #import <Commons/NSDecimalNumber+NullReplacement.h>
 #import <Commons/NSDictionary+NullReplacement.h>
 #import <Commons/NSNumberFormatter+Singleton.h>
